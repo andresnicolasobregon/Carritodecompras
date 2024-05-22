@@ -17,6 +17,7 @@ function cargar() {
 								<p id="cantidad">0</p>
 								<button onclick="restar()">-</button>
 							</div>
+							<button>Agregar al carrito</button>
 						</div>`;
 		padre.appendChild(parrafo);
 }

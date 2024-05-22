@@ -1,0 +1,57 @@
+*{
+	margin: 0px;
+}
+header{
+	background-color: #fff159;
+}
+section{
+	background-color: #fee600;
+	height: 400px;
+}
+footer{
+	background-color: yellow;
+}
+ul{
+	display: flex;
+}
+
+li{
+	padding: 20px;
+	list-style: none;
+}
+input{
+	width: 400px;
+}
+section{
+	display: flex;
+	justify-content: center;
+}
+button{
+	width: 100px;
+	height: 20px;
+	border-radius: 10px;
+}
+.boxcelular{
+	background-color: white;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	text-align: center;
+}
+.boxlogo{
+	display: flex;
+} 
+
+img{
+	transition: 2s;
+}    
+img:hover{
+	transform: scale(1.5);
+}     
+button{
+	transition: 2s;
+}    
+button:hover{
+	transform: scale(1.5);
+	background-color: green;
+}  

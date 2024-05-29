@@ -16,12 +16,22 @@ function cargar() {
 								<p id="cantidad">0</p>
 								<button onclick="restar()">-</button>
 							</div>
-							<button>Agregar al carrito</button>
+							<button onclick="agregaralcarrito()">Agregar al carrito</button>
 						</div>`;
 		padre.appendChild(parrafo);
 }
 
 cargar()
+
+function agregaralcarrito() {
+	let producto = document.getElementById("cantidad").innerHTML
+	if (producto == 0) {
+		alert("Ingrese el número de productos")
+	}else{
+		document.getElementById("cantidadcarrito").innerHTML= producto
+	}
+}
+
 
 
 let cantproductos=0;

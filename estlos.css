@@ -43,3 +43,10 @@ section{
 .boxcontador{
 	display: flex;
 }
+#cantidadcarrito{
+	background-color: red;
+	color: white;
+	border-radius: 10px;
+	height: 30px;
+	width: 26px;
+}

@@ -46,7 +46,42 @@ section{
 #cantidadcarrito{
 	background-color: red;
 	color: white;
-	border-radius: 10px;
+	border-radius: 20px;
 	height: 30px;
 	width: 26px;
+	display: grid;
+	justify-items: center;
+	align-items: center;
+	position: relative;
+  	left: -20px;
+	top: -5px;
+	visibility: hidden;	
+}
+.boxdetalle{
+	-webkit-box-shadow: 10px 8px 5px -9px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 8px 5px -9px rgba(0,0,0,0.75);
+	box-shadow: 10px 8px 5px -9px rgba(0,0,0,0.75);
+	width: 600px;
+	height: 400px;
+	border-radius: 10px;
+	margin: 10px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-content: center;
+	justify-content: space-around;
+	align-items: center;
+}
+
+body{
+	text-align: center;
+	display: grid;
+}
+main{
+	display: grid;
+}
+#boxdetalle{
+	display: grid;
+	grid-template-columns: 1fr;
+	align-items: center;
+	justify-items: center
 }

@@ -11,6 +11,10 @@ header{
 ul{
 	display: flex;
 }
+input{
+	width: 250px;
+	height: 30px;
+}
 li{
 	list-style: none;
 	padding:10px;

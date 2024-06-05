@@ -35,7 +35,8 @@ function agregaralcarrito() {
 	}else{
 		document.getElementById("cantidadcarrito").innerHTML= producto;
 		document.getElementById("cantidadcarrito").style.visibility = "visible";
-
+		localStorage.setItem('cantproducto', producto)
+		window.open("carrito.html")
 	}
 }
 
